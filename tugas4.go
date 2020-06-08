@@ -13,7 +13,7 @@ func tampil_mahasiswa(mahasiswa map[string]int) {
 
 	// 3. setelah teman teman buat fungsi tampil di fungsi tampil_mahasiswa sehingga menampilkan output
 	// hint : Nama key pada map gunakan nama mahasiswanya
-	for key, val := range mahasiswa {
-		fmt.Println(key,"\t:" ,val, "cm")
+	for nama, umur := range mahasiswa {
+		fmt.Println(nama,"\t:" ,umur, "cm")
 	}
 }
